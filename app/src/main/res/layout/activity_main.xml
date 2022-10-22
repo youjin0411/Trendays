@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btn_profil"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FFFFFF"
+            android:baseline="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/person" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="45dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/notosansbold"
+            android:text="안녕하세요.\n당신의 언어 세대 유형은 무엇인가요 ? "
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="130dp"
+            android:fontFamily="@font/notosansregular"
+            android:text="지금 알아보러 가요"
+            android:textColor="#404040"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/test_start"
+            android:src="@drawable/buttonimg"
+            android:layout_width="320dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200dp"
+            android:backgroundTint="#F6FF8E"
+            android:adjustViewBounds="true"/>
+
+        <Button
+            android:id="@+id/test_start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="280dp"
+            android:background="#FFC100"
+            android:fontFamily="@font/notosansregular"
+            android:text=" 테스트 하러 가기"
+            android:textSize="15sp"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/rink1"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="430dp"
+                android:scaleType="centerCrop"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/rink1" />
+
+            <ImageButton
+                android:id="@+id/rink2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="430dp"
+                android:scaleType="centerCrop"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/rink2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/rink3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="600dp"
+                android:scaleType="centerCrop"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/rink3" />
+
+            <ImageButton
+                android:id="@+id/rink4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="600dp"
+                android:scaleType="centerCrop"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/rink4" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/drawer_nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu" />
+</androidx.drawerlayout.widget.DrawerLayout>

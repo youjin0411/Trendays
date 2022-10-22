@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1915" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/drawable/ic_baseline_radio_button_unchecked_24.xml" value="0.1915" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/drawable/image_border.xml" value="0.1905" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/activity_all_result.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/activity_test.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/baby_boom_fragment.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/baby_boom_result_activity.xml" value="0.1375" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/baby_boom_result_fragment.xml" value="0.26953125" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/millennium_fragment.xml" value="0.5857275254865616" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/millennium_result_activity.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/millennium_result_fragment.xml" value="0.359375" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/my_page_fragment.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/test_page_fragment1.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/test_page_fragment2.xml" value="0.17750882501260717" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/test_start_activity.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/x_fragment.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/x_result_activity.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/x_result_fragment.xml" value="0.359375" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/z_fragment.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/z_result_activity.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/layout/z_result_fragment.xml" value="0.359375" />
+        <entry key="..\:/Users/chm48/AndroidStudioProjects/AppjamProject/app/src/main/res/menu/nav_menu.xml" value="0.18333333333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
